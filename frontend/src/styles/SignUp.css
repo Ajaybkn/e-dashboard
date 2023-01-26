@@ -1,0 +1,53 @@
+.reg-head {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 61px;
+  padding: 10p;
+}
+.register {
+  background-color: lightblue;
+  border: 2px solid black;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  margin: 50px;
+  margin-top: 50px;
+  padding: 10px;
+  /* display: flex; */
+  left: 500px;
+}
+.input {
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  line-height: 44px;
+}
+.input p {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+.input input {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px;
+  height: 30px;
+  width: 250px;
+}
+.input input:hover {
+  filter: invert();
+}
+
+.btn {
+  font-size: 20px;
+  margin-top: 11px;
+  width: 150px;
+  height: 30px;
+  background-color: limegreen;
+  cursor: pointer;
+}

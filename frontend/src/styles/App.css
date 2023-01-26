@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+.img {
+  position: absolute;
+  left: 5px;
+  height: 40px;
+  width: 52px;
+}
+.nav-ul {
+  background-color: cornflowerblue;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 20px;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 50px;
+}
+.nav-left {
+  text-align: left;
+}
+.nav-ul li a {
+  color: yellow;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}

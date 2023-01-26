@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-color: bisque;
+}
+h1 {
+  display: block;
+}
+.product {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  /* display: flex; */
+  box-sizing: border-box;
+  margin: 5px;
+  height: 200px;
+  /* background-color: red; */
+  /* justify-content: flex-end; */
+}
+.span1 {
+  color: red;
+  position: absolute;
+  top: 50px;
+  left: 31px;
+  font-size: 20px;
+  border: 2px solid red;
+  background-color: black;
+}
+.span2 {
+  position: absolute;
+  top: 50px;
+  left: 308px;
+  color: red;
+  font-size: 20px;
+  border: 2px solid red;
+  background-color: black;
+}
+.span3 {
+  position: absolute;
+  top: 50px;
+  right: 474px;
+  color: red;
+  font-size: 20px;
+  border: 2px solid red;
+  background-color: black;
+}
+.span4 {
+  color: red;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  font-size: 20px;
+  border: 2px solid red;
+  background-color: black;
+}
+.input-product {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
